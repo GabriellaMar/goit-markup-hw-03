@@ -274,7 +274,7 @@ body {
 .service-list {
     display: flex;
     margin-top: 72px;
-    padding-bottom: 120px;
+
 }
 
 .container .service-item:not(:last-child) {
