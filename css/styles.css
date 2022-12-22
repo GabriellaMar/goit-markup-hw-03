@@ -150,7 +150,9 @@ li {
     text-align: center;
 }
 
-.hero {
+.hero {max-width: 494px;
+    margin-left: auto;
+    margin-right: auto;
     font-size: 56px;
     letter-spacing: var(--main-letter-spacing);
     line-height: 1.1;
