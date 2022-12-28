@@ -155,8 +155,8 @@ Img {
     background-color: var(--primary-color);
     background-size: cover;
     max-width: 1440px;
-
-
+   margin-left: auto;
+    margin-right: auto;
 }
 
 .hero {
@@ -274,17 +274,24 @@ body {
 
 .fiture-list {
     display: flex;
+    
+
 }
 
 .fiture-icon {
-    margin-bottom: 8px;
-    width: 264px;
-    height: 112px;
-    background-color: #F4F4FD;
+    width:64px;
+     height: 64px;
 }
 
-.fiture-item {
-    width: 264px;
+
+.fiture-icon-list {  display: flex;
+width: 264px;
+height: 116px;
+margin-bottom: 8px;
+
+background-color: var(--secondary-background-color) ;
+align-items: center;
+justify-content: center;
 }
 
 .container .fiture-item:not(:last-child) {
@@ -298,7 +305,6 @@ body {
 .service-list {
     display: flex;
     margin-top: 72px;
-
 }
 
 .container .service-item:not(:last-child) {
@@ -355,6 +361,8 @@ body {
     background-color: var(--accent-color);
     border-radius: 50%;
 }
+.social-link:hover,
+.social-link:focus {background-color: var(--btn-hover-color);}
 
 .social-icon {
     width: 16px;
